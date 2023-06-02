@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/estlos.css">
+</head>
+<body>
+    <main>
+        <section>
+            <article id="6">
+                <h2>Contacto</h2>
+                <form action="JS/ejemplo.js" method="post">
+                    <fieldset>
+                    <legend>Datos personales</legend>
+                    <p>Horario de atención de lunes a viernes de 9a.m. a 7 p.m.
+                        <br><br>
+                        Puedes contactarnos mediante: 
+                        <br><br>
+                        Número telefónico: <a href="tel:+525517389402">5517389402</a>
+                        <br>
+                        E-mail: <a href="mailto:karen2801942@hotmail.com">karen2801942@hotmail.com</a>
+                        <br><br>
+                        O si lo prefieres puedes hacerlo a través del siguiente formulario y nos pondremos en contacto lo más antes posible
+                    </p>
+                    <label for="la1">
+                        Nombre completo:
+                        <input type="text" id="la1" size="60" required placeholder="Karen Martínez">
+                    </label>
+                    <br><br>
+                    <label for="la2">
+                        E-mail:
+                        <input id="la2" type="email" size="60" required placeholder="ejemplo@live.com.mx">
+                    </label>
+                    <br><br>
+                    <label for="la3">
+                        Número telefónico:
+                        <input type="tel" name="telefono" id="la3" placeholder="Telefono" required>
+                    </label>
+                    <br><br>
+                    <label for="la4">
+                        Selecciones el tema o los temas en lo que tiene dudas:
+                        <br>
+                        <input type="radio">Infromación nutrimental 
+                        <input type="radio">Datos curiosos 
+                        <input type="radio">Variedad de sandías
+                        <input type="radio">Origen de la sandía
+                        <input type="radio">Modos de conservación 
+                    </label>
+                    <br><br>
+                    <label for="la5">
+                        En caso de ser necesario, adjunte la imagen:
+                        <br>
+                        <input type="file" accept=".jpg, .png, .pdf" title="Solo acepta formatos .jpg, png, .pdf">
+                    </label>
+                    <br><br>
+                    <label for="la6">
+                        Descripción
+                        <br>
+                    <textarea name="area-de-texto" id="text1" cols="130" rows="10" placeholder="Breve descripción" required></textarea>
+                </label>
+                <br><br>
+                <label for="la7">
+                <button type="submit">Enviar </button>
+                </label>
+                <label for="la8">
+                <button type="reset">Restablecer</button>
+                </label>
+                </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

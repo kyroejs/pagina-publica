@@ -13,6 +13,7 @@ main{
 h1{
     color: red;
     text-align: center;
+    font-family: fantasy;
     padding: 30px;
 }
 
@@ -40,7 +41,7 @@ footer{
 }
 
 .texto{
-    display: inline-block;
+    text-align: center;
 }
 
 .texto>h2{
@@ -49,8 +50,8 @@ footer{
 
 .fotos{
     display: inline-block;
-    text-align: right;
-    width: 40%;
+    text-align:left;
+    width: 50%;
 }
 
 .imageness{
@@ -63,6 +64,8 @@ article{
 }
 
 h2{
+    text-align: center;
+    font-family:fantasy;
     color:rgb(209, 42, 42);
 }
 
@@ -111,4 +114,6 @@ legend{
     font-size: x-large;
     text-align: center;
 }
+
+
 
