@@ -96,6 +96,13 @@ th, td{
     margin: 10px;
 }
 
+.enlaces>a>img:hover{
+    width: 200px;
+    border: 5px solid  rgb(15, 63, 134);
+    border-style: dotted;
+    margin: 10px;
+}
+
 #ii>iframe{
     width: 50%;
     height: 310px;
@@ -113,6 +120,13 @@ fieldset{
 legend{
     font-size: x-large;
     text-align: center;
+}
+
+.fotos>img:hover{
+    width: 100px;
+    border: 5px solid  rgb(15, 63, 134);
+    border-style: dotted;
+    margin: 10px;
 }
 
 
