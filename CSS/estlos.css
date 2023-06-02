@@ -18,13 +18,13 @@ h1{
 
 nav{
     text-align: center;
-    padding: 10px;
+    padding: 30px;
 }
 
 nav>a{
     color: red;
     text-decoration: none;
-    margin: 0 25px;
+    margin: 0 13px;
 }
 
 nav>a:hover{
@@ -102,3 +102,13 @@ audio{
     background-color: tomato;
     border-radius: 10px;
 }
+
+fieldset{
+    padding: 2% 5% 5% 5%;
+}
+
+legend{
+    font-size: x-large;
+    text-align: center;
+}
+
