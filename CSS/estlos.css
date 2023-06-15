@@ -135,5 +135,16 @@ legend{
     list-style-image: url('../imagen/sandia\ \(1\).png');
 }
 
+div{
+    background-image: url('../imagen/a05007d0-fbd8-438d-a5b0-71373a7c2a51.jpg');
+}
 
+@font-face{
+    font-family: 'poleth';
+    src: url('../tipografia/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+
+h2:hover{
+    font-family: 'poleth';
+}
 
